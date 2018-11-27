@@ -1,5 +1,28 @@
-#+TITLE: README
+#+TITLE: Doom Palenight Theme
 
 Palenight theme for [doom-emacs](https://github.com/hlissner/doom-emacs)
 
+* Setup
+First install this package
+and set ~doom-theme~ to ~doom-palenight~ in
+
+=/home/user/.config/doom/packages.el=
+#+BEGIN_SRC emacs-lisp
+(package! doom-palenight-theme :recipe (:fetcher github :repo "brettm12345/doom-palenight-theme" :files ("*.el" "themes/*.el")))
+#+END_SRC
+
+Be sure to set the ~doom-theme~ to ~doom-palenight
+
+=/home/user/.config/doom/config.el=
+#+BEGIN_SRC emacs-lisp
+(setq doom-theme 'doom-palenight)
+; optional enable solaire-mode
+(add-to-list '+doom-solaire-themes '(doom-palenight . t))
+#+END_SRC
+
+Then refresh your doom installation
+#+BEGIN_SRC sh
+doom re
+#+END_SRC
+* Screenshot
 [[https://user-images.githubusercontent.com/7571012/48254950-434db100-e403-11e8-82a5-e0b17cf74b8a.png]]
