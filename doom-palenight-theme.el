@@ -8,9 +8,9 @@
 ;;; Commentary:
 ;; doom-palenight theme is a palenight theme for doom Emacs
 
-(require 'doom-themes)
-
 ;;; Code:
+
+(require 'doom-themes)
 
 (defgroup doom-palenight-theme nil
   "Options for doom-themes"
