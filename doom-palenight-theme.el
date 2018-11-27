@@ -1,14 +1,24 @@
-;;; doom-palenight-theme.el -*- lexical-binding: t; -*-
+;;; doom-palenight-theme.el --- Palenight theme for doom emacs -*- lexical-binding: t; -*-
+;; Author: Brett Mandler
+;; Keywords: theme, doom-emacs, doom-emacs-theme
+;; Package-Requires: ((doom-themes "2.0.8"))
+;;
+;; This file is NOT part of GNU Emacs.
+;;
+;;; Commentary:
+;; doom-palenight theme is a palenight theme for doom Emacs
+
 (require 'doom-themes)
 
-;;
+;;; Code:
+
 (defgroup doom-palenight-theme nil
   "Options for doom-themes"
   :group 'doom-themes)
 
 (defcustom doom-palenight-padded-modeline doom-themes-padded-modeline
-  "If non-nil, adds a 4px padding to the mode-line. Can be an integer to
-determine the exact padding."
+  "If non-nil, adds a 4px padding to the mode-line.
+Can be an integer to determine the exact padding."
   :group 'doom-palenight-theme
   :type '(or integer boolean))
 
