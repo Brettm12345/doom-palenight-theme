@@ -8,7 +8,7 @@ and set ~doom-theme~ to ~doom-palenight~ in
 
 =/home/user/.config/doom/packages.el=
 #+BEGIN_SRC emacs-lisp
-(package! doom-palenight-theme :recipe (:fetcher github :repo "brettm12345/doom-palenight-theme" :files ("*.el" "themes/*.el")))
+(package! doom-palenight-theme :recipe (:fetcher github :repo "brettm12345/doom-palenight-theme"))
 #+END_SRC
 
 Be sure to set the ~doom-theme~ to ~doom-palenight
