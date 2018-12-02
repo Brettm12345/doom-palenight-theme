@@ -1,8 +1,9 @@
-;;; doom-palenight-theme.el --- Palenight theme for doom emacs
-;; Author: Brett Mandler
+;;; doom-palenight-theme.el --- Palenight theme for doom emacs -*- lexical-binding: t; -*-
+;; Author: Brett Mandler <brettmandler@gmail.com>
 ;; Keywords: theme, doom-emacs, doom-emacs-theme
 ;; Package-Requires: ((doom-themes "2.0.8"))
-;;
+;; URL: https://github.com/Brettm12345/doom-palenight-theme
+;; Version: 0.1
 ;; This file is NOT part of GNU Emacs.
 ;;
 ;;; Commentary:
